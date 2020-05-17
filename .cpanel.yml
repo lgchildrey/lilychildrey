@@ -2,13 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home3/lilychil/public_html/
-    - /bin/cp -r css $DEPLOYPATH
-    - /bin/cp -r fonts $DEPLOYPATH
-    - /bin/cp -r images $DEPLOYPATH
-    - /bin/cp -r js $DEPLOYPATH
-    - /bin/cp -r media $DEPLOYPATH
-    - /bin/cp -r hello-world-post $DEPLOYPATH
-    - /bin/cp about.html $DEPLOYPATH
-    - /bin/cp contact.html $DEPLOYPATH
-    - /bin/cp hello-world-post.html $DEPLOYPATH
+    - /bin/cp -r * $DEPLOYPATH
    
